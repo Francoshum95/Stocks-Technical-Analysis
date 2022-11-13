@@ -55,7 +55,7 @@ class Main:
 
 
 if __name__ == "__main__":
-  Main().plotChart(sys.argv[1], sys.argv[2])
+  Main(sys.argv[1], sys.argv[2]).plotChart()
 
 
 
